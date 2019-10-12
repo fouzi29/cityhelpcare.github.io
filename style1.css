@@ -1,0 +1,155 @@
+*{
+
+	margin: 0px;
+	padding: 0px;
+}
+body{
+
+	background-image: url(img/images.jpeg) ;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#bd0{
+
+ width: 1000px ;
+ margin:0 auto;
+
+
+}
+#head0{
+ background-color: #31CE3A;
+ height: 70px ;
+ width: 980px;
+ padding: 10px;
+ font-size:11pt;
+ border-bottom: 2px solid #FF241D;
+  
+margin-top: 5px;
+}
+#nav0{
+height: 32px;
+width: 1000px;
+background-color: #4E4E4E ;
+ border-bottom: 2px solid #FF241D;
+
+margin-top:0px;
+
+}
+
+#nav0 ul{ 
+list-style-type: none;
+margin-left: 250px;
+background-color:#fff;
+
+}
+
+#nav0 ul li{
+ float: left ;
+ border-right:1px solid	#6B710E;
+ height: 31px;
+position: relative;
+}
+#nav0 ul li:last-child{
+	border-right:none;
+	padding-left: 0px;
+	
+}
+#nav0 ul li:first-child{
+	border-left:none;
+	padding-left: 0px;
+}
+
+#nav0 ul li a{
+margin-top: 0px;
+	text-decoration: none;
+	color: white ;
+	padding: 5px ;
+    display:block;
+    width: 150px;
+    height: 26px;
+}
+#nav0 ul li a:hover{
+	background:#31CE3A;
+	transition: all 0.8s;
+}
+#nav0 ul li:hover ul{
+	left: 0px;
+	z-index: 75;
+
+}
+#nav0 ul li ul{ 
+list-style-type: none;
+margin-left: 0px;
+margin-top: -5px;
+background:#4E4E4D;
+position: absolute;
+left: -999999px;
+}
+#nav0 ul li ul li{
+	float: none;
+	border-right:none;
+	border-left:none;
+	padding: 0px;
+	width:180px;
+	border-bottom:1px solid #6B710E;
+	height: 35px;
+}
+#doctorlist{
+	height: 500px;
+	background:#31CE3A;
+	
+	margin-top: 5px;
+}
+#doctorlist h2{
+	background-color: #933AAD ;
+}
+#doctorlist ul {
+  list-style-type: none;
+
+}
+#doctorlist ul li{
+  padding-top: 7px;
+
+
+}
+#links{
+	height: 336px;
+	background-color: #933AAD;
+	border-top: 2px solid #FF241D;
+}
+#links ul{
+
+	list-style-type: none;
+}
+#links ul li a{
+  text-decoration: none;
+  color: white ;
+  display: block;
+  padding: 10px;
+ z-index: 555;
+
+}
+#links ul li :hover{
+   cursor: pointer;
+   background-color: red;
+   transition: all 2s;
+
+}
+#about{
+ height: 100px;
+ width: 980px;
+ padding: 10px 10px;
+ text-align: justify;
+ background-color: #933AAD;
+margin-top: 0px;
+border-bottom: 2px solid #FF241D;
+border-top: 2px solid #FF241D;
+
+}
+
+#foot0{
+	height: 40px;
+	background-color: #6C6E69 ;
+	text-align: center;
+	padding-top: 10px;
+}
